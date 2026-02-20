@@ -25,6 +25,10 @@
 
         .container {
             text-align: center;
+			border-radius: 16px;
+			background-color: white;
+			box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+			padding: 20px 30px;
         }
 
         .logo {
@@ -35,9 +39,10 @@
 
         h1 {
             font-size: 5rem;
-            color: white;
+            color: #5D3FD3;
             font-weight: 700;
-            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            text-shadow: 0 4px 8px rgba(93, 63, 211, 0.9);
+
         }
 
         @media (max-width: 768px) {
